@@ -1,4 +1,4 @@
-# Author - 
+# Author - Tuva Carey, Maria Sol, Trym Jensen
 # Parts of the script is borrowed from Sindre E. Hinderaker
 # Description - Generator for creating customized flow-valves
 
