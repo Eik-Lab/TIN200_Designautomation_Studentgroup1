@@ -121,7 +121,7 @@ class FlowValveCommandCreatedHandler(adsk.core.CommandCreatedEventHandler):
             inputs.addValueInput('theta', 'Angle (θ)', 'deg', _initTheta)
 
             _initD = adsk.core.ValueInput.createByReal(defaultD)
-            inputs.addValueInput('D', 'Diameter (D)', 'cm', _initD)
+            inputs.addValueInput('D', 'Main Pipe Outer Diameter (D)', 'cm', _initD)
            
             _initL = adsk.core.ValueInput.createByReal(defaultLength)
             inputs.addValueInput('L', 'Length (L)', 'cm', _initL)
